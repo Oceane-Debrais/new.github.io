@@ -368,6 +368,15 @@ h5:hover {
   transition: 1s ease;
 }
 
+#mail {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: center;
+  color: #76BBFF;
+  font-size: 2.5em;
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
 /*
 top: 28%;
   left: 30%;
