@@ -82,9 +82,10 @@ transition: 1s ease;
 
 #contact a {
    transition: all 2s ease-out;
- 
+}
 
-
+.protection{
+  display: none;
 }
 
 .accueil{
