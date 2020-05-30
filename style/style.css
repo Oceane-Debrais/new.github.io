@@ -231,7 +231,7 @@ section.dnmade {
   height: 1200px;
   margin-top: 200px;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 0px;
 
 }
 
@@ -241,8 +241,8 @@ section.dnmade {
   height: 550px;
   border-radius: 800px;
   background-color: #FFC9E9;
-  margin-bottom: 100px;
-  margin-left: 10%;
+  margin-bottom: 0px;
+  margin-left: 8%;
 
 
     }
@@ -320,7 +320,7 @@ margin-top: -100px;
   min-width: 400px; 
   width: 70%;
   height: 700px;
-  text-align: left;
+  text-align: justify-all;
   justify-content: center;
   color: #76BBFF;
   padding-left: 80px;
@@ -366,9 +366,9 @@ p {
 /*titre:*/
 
 #titrednmade {
-    margin-top:500px;
-    margin-bottom: -400px;
-    margin-right: 100px;
+    margin-top:250px;
+    margin-bottom: -150px;
+    margin-right: 130px;
     text-align: right;
 }
 
@@ -390,7 +390,7 @@ h4 {
   white-space: nowrap;
   line-height: auto;
   text-align: center;
-  margin-top: 110px;
+  margin-top: -150px;
 }
 
 h5 {
@@ -437,6 +437,7 @@ img.superpose {
 
 #bubble {
  width: 100%;
+ margin-bottom: 100px;
 }
 
 
@@ -470,6 +471,9 @@ article{
  
 }
 
+#contact {
+  margin-top: 250px;
+}
 
 #container {
 	max-width: 960px;
