@@ -213,7 +213,7 @@ hr {
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 100px;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
 	border: 0px;
 	height: 5px;
 	width: 50%;
@@ -258,12 +258,17 @@ section.dnmade {
  
 }
 
-#imginsta{
+#imgcookie{
     width: 100%;
     align-content: center;
 
 }
 
+#imginsta{
+    width: 100%;
+    align-content: center;
+
+}
 
 
 #insta {
@@ -327,7 +332,8 @@ align-items: center;
 #sectionbubble {
   justify-content: center;
   align-items: center;
-   margin-top: 100px;
+   margin-top: 200px;
+  margin-bottom: 200px;
    padding-top: 100px;
 }
 
@@ -352,6 +358,7 @@ h4 {
   white-space: nowrap;
   line-height: auto;
   text-align: center;
+  margin-top: 110px;
 
 
 }
@@ -472,12 +479,14 @@ section.module.image h3 {
   line-height: 300px;
   font-weight: 400;
   text-align: center;
-  text-transform: uppercase lowercase;
-      /*Gradient text*/
-   background: linear-gradient(90deg, #C9FFFF 0%, #B0D7FF 30%, #E8CAF9 60%, #F2BAC9 90%);
-    -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    color: #76bbff;
 }
+
+section.module.image h3:hover {
+color: #FFC9E9;
+transition: 1s ease;
+}
+
 section.module.image1 {
   background-image: url("https://i.imgur.com/4DJLXP3.png");
     height: auto;
